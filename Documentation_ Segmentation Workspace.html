@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0058)http://med.inria.fr/docs/41-doc-segmentation-configuration -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" slick-uniqueid="4"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  
+<script type="text/javascript" async="" src="./Documentation_ Segmentation Workspace_files/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23264720-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!--<base href="http://med.inria.fr/docs/41-doc-segmentation-configuration">--><base href=".">
+  
+  <meta name="keywords" content="medinria, &quot;medical imaging&quot;">
+  <meta name="author" content="Sergio Medina">
+  <meta name="description" content="medInria - Medical Imaging Platform">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>Documentation: Segmentation Workspace</title>
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/grid-12.css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/gantry.css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/joomla.css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/joomla(1).css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/style6.css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/template.css" type="text/css">
+  <link rel="stylesheet" href="./Documentation_ Segmentation Workspace_files/typography.css" type="text/css">
+  <style type="text/css">
+ body a {color:#e33729;}
+body a, #rt-main-surround .rt-article-title, #rt-main-surround .title, #rt-showcase .title, #rt-showcase .showcase-title span, #rt-top .title, #rt-header .title, #rt-feature .title {color:#e33729;}
+  </style>
+  <script src="./Documentation_ Segmentation Workspace_files/mootools-core.js" type="text/javascript"></script>
+  <script src="./Documentation_ Segmentation Workspace_files/core.js" type="text/javascript"></script>
+  <script src="./Documentation_ Segmentation Workspace_files/caption.js" type="text/javascript"></script>
+  <script src="./Documentation_ Segmentation Workspace_files/gantry-buildspans.js" type="text/javascript"></script>
+  <script src="./Documentation_ Segmentation Workspace_files/gantry-inputs.js" type="text/javascript"></script>
+  <script src="./Documentation_ Segmentation Workspace_files/browser-engines.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+			window.addEvent('domready', function() {
+				var modules = ['rt-block'];
+				var header = ['h3','h2:not(.itemTitle)','h1'];
+				GantryBuildSpans(modules, header);
+			});
+		
+InputsExclusion.push('.content_vote')
+  </script>
+</head>
+  <body class="backgroundlevel-high bodylevel-high cssstyle-style6 font-family-lucida font-size-is-default col12" ryt12190="1">
+            <div id="rt-header">
+      <a href="https://github.com/medInria/medinria-superproject"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./Documentation_ Segmentation Workspace_files/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+      <div class="rt-container">
+        <div id="rt-header2">
+          <div id="rt-header3">
+            <div id="rt-header4">
+              <div class="rt-grid-4 rt-alpha">
+    	<div class="rt-block">
+		<a href="http://med.inria.fr/" id="rt-logo"></a>
+	</div>
+	
+</div>
+<div class="rt-grid-8 rt-omega">
+                    <div class="_menu">
+                    <div class="rt-block">
+				<div class="module-surround">
+								        <div class="module-icon"></div>
+			        	                					<div class="module-content">
+	                	
+<ul class="menu">
+<li id="item-41"><a href="http://med.inria.fr/"><span>Home</span></a></li><li id="item-9" class="deeper parent"><span class="separator"><span>The App</span></span>
+<ul><li id="item-187"><a href="http://med.inria.fr/the-app/release-notes"><span>Release Notes</span></a></li><li id="item-6"><a href="http://med.inria.fr/the-app/downloads"><span>Downloads</span></a></li><li id="item-4"><a href="http://med.inria.fr/the-app/sneak-peek"><span>Take a Sneak Peek</span></a></li><li id="item-10"><a href="http://med.inria.fr/the-app/features"><span>Features Description</span></a></li></ul></li><li id="item-8" class="deeper parent"><span class="separator"><span>Need Help?</span></span>
+<ul><li id="item-172"><a href="http://med.inria.fr/help/forum"><span>Forum</span></a></li><li id="item-7"><a href="http://med.inria.fr/help/documentation"><span>Documentation</span></a></li><li id="item-34"><a href="http://med.inria.fr/help/ask-us"><span>Ask Us!</span></a></li></ul></li><li id="item-36" class="deeper parent"><span class="separator"><span>Develop</span></span>
+<ul><li id="item-39"><a href="https://www.github.com/medInria/medinria-superproject/wiki" target="_blank"><span>Documentation</span></a></li><li id="item-38"><a href="https://www.github.com/medInria/medinria-superproject" target="_blank"><span>Source Code</span></a></li><li id="item-37"><a href="http://med.inria.fr/redmine" target="_blank"><span>Bug Tracker</span></a></li><li id="item-40"><a href="http://med.inria.fr/develop/hands-on-sessions"><span>Hands-On Sessions</span></a></li></ul></li><li id="item-33" class="deeper parent"><span class="separator"><span>About</span></span>
+<ul><li id="item-5"><a href="http://med.inria.fr/about/the-team"><span>Acknowledgments</span></a></li><li id="item-24"><a href="http://med.inria.fr/about/license"><span>License &amp; Disclaimer</span></a></li></ul></li><li id="item-3"><a href="http://med.inria.fr/contact"><span>Contact Us</span></a></li></ul>					</div>
+				</div>
+            </div>
+                </div>
+		
+</div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+                <div id="rt-feature">
+      <div class="rt-container">
+                <div class="clear"></div>
+      </div>
+    </div>
+                <div id="rt-main-surround">
+                                    
+<div id="rt-main" class="mb12">
+                <div class="rt-container">
+                    <div class="rt-grid-12 ">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+	                            	<div class="rt-article"><div class="rt-article-bg">
+	<div class="item-page">
+				
+		
+		
+		
+		
+															
+				
+		
+						
+																<h2 style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; outline-width: 0px; border-width: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; text-align: center; visibility: visible; background-color: transparent;"><span>Segmentation</span> Workspace</h2>
+<h2 style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; outline-width: 0px; border-width: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; visibility: visible; background-color: transparent;">&nbsp;</h2>
+<h2 style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; outline-width: 0px; background-color: transparent; border-width: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">&nbsp;&nbsp;<a id="" name="Overview" style="visibility: visible;"></a>Overview</h2>
+<p>The Segmentation configuration as it is in medInria v2.0.1 is just a preview of the canvas on which segmentation algorithms will be added in the future. The only algorithm available as the moment of writing is a manual painting tool.</p>
+<div style="height: 100%; font-family: Helvetica, Arial, sans-serif; background-image: initial; background-attachment: initial; min-width: 90%; padding: 5px; margin: 8px;">
+<h2 style="visibility: visible;"><span>Configuration</span> Layout</h2>
+<p>The configuration itself has a visalisation area in which any type of layout can be used: Single, Multi, Custom. The segmentation can be run on any View. On top of the toolbox container is a slection toolbox, which contains all the segmentation plugins loaded when medInria was started. At the moment only one called <em>Paint Segmentation</em> is available as a preview. Once an algorithm is chosen, its controsl are visible in a specific toolbox.</p>
+<p>All the usual view properties are accessible.</p>
+<p>&nbsp;<img src="./Documentation_ Segmentation Workspace_files/segmentation-screenshot.png" border="0" alt="segmentation-screenshot" width="500" height="296" style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;"></p>
+<h2 style="visibility: visible;">Principles</h2>
+<p>The painting tool will allow 2 colors to be used.</p>
+<ol>
+<li>The <span style="color: #00ff00;">green</span> colour will be used to fill the inside of the region of interest.</li>
+<li>The <span style="color: #ff0000;">red</span> colourwill be used to fill the outside of regions</li>
+</ol>
+<p>However you don't necesseraly need the second colour. It has been added there first as a seed for an other algorithm needing seed points inside and outside a region. Here you may only use 1 color if you wish.</p>
+<p>&nbsp;</p>
+<p>The generated mask will have three values: 0 for non painted values, 1 for green and 2 for red. If you only use green then the value is only one.</p>
+<p>&nbsp;Once you are done, you may export the mask to the database.</p>
+<p><img src="./Documentation_ Segmentation Workspace_files/PaintSegmentation-screenshot.png" border="0" alt="PaintSegmentation-screenshot" width="500" height="296" style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>&nbsp;</p>
+<h2 style="visibility: visible;"><span>Painting</span> ToolBox</h2>
+<p>The Paint Toolbox has several buttons and fields.</p>
+<ol style="list-style-type: upper-alpha;">
+<li><strong>Select Data:&nbsp;</strong>click on that button to select a view. Once you clicked there, click on a view. It will become the view you will paint in.</li>
+<li>Reset Data: Allows you to change the active view. Click on an other view after to select the new one.</li>
+<li>Clear Mask: Resets the whole mask in the current view.</li>
+<li>Inside: Starts to paint with the inside colour. pressing the left button and dragging the mouse will paint the inside colour.</li>
+<li>Outside: Starts to paint with the inside colour. pressing the left button and dragging the mouse will paint the inside colour.</li>
+<li>Erase: brings up an eraser. Use it to correct painting imprecisions.</li>
+<li>Boundery: Uses a mix inside/outside brush.</li>
+<li>Brush Radius: Sets the brush's radius using a slider or a spin box.</li>
+<li>Save the mask in the temporary database.</li>
+</ol>
+<p style="text-align: center;"><img src="./Documentation_ Segmentation Workspace_files/SegmentationTB-screenshot.png" border="0" alt="SegmentationTB-screenshot" width="311" height="204"></p>
+<p>&nbsp;</p>
+<h2 style="visibility: visible;"><span>Exporting</span> the Mask</h2>
+<p>Once you have created your database item by clicking on the corresponding button, a mask is usable in the application. However if you want to save it for later use, you are encouraged to save it in the database, or export it to some external storage device.</p>
+<p>To do so go to the browser and use the commands there to save or export the data. Be careful to choose a format that allows "unsigned char" values if you try to export it.</p>
+<p><a href="http://med.inria.fr/help/documentation">Back to Documentation Index</a></p>
+<p>&nbsp;</p>
+</div>										
+		
+			
+				
+		
+			</div>
+</div></div>
+								</div>
+	                        </div>
+						</div>
+                                                                    </div>
+                                        <div class="clear"></div>
+                </div>
+            </div>
+                </div>
+    <div class="clear"></div>
+                        <div id="rt-copyright">
+      <div class="rt-container">
+        <div class="rt-grid-12 rt-alpha rt-omega">
+    		<div class="clear"></div>
+		<div class="rt-block">
+			<div id="powered-by">
+				Designed By <a href="http://www.rockettheme.com/" title="rockettheme.com" id="rocket"></a> 
+				Powered By <a href="http://www.rockettheme.com/gantry" title="Gantry Framework" id="gantry-logo"></a>
+			</div>
+			<span class="copytext">Copyright © 2012 Inria. All rights are reserved.</span>
+		</div>
+		
+</div>
+        <div class="clear"></div>
+      </div>
+    </div>
+          
+
+</body></html>
